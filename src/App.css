@@ -1,0 +1,157 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6fb;
+  color: #252b42;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 40px 7%;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #5146c8;
+}
+
+header p {
+  color: #747b91;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.note-form {
+  background: white;
+  padding: 28px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+  margin-bottom: 40px;
+}
+
+.note-form h2,
+.notes-section h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #dce0eb;
+  border-radius: 7px;
+  font-size: 15px;
+  font-family: inherit;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #6558d3;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 11px 18px;
+  background-color: #5b4dcc;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #4436ae;
+}
+
+.notes-section {
+  margin-bottom: 40px;
+}
+
+.empty-message {
+  color: #858ba0;
+  text-align: center;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+}
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.note-card {
+  background: white;
+  padding: 22px;
+  border-radius: 10px;
+  border-top: 4px solid #7768e8;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+  overflow-wrap: anywhere;
+}
+
+.note-card h3 {
+  margin-top: 0;
+  color: #37305f;
+}
+
+.note-card p {
+  color: #62697d;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+.note-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.note-actions button:last-child {
+  background-color: #e65361;
+}
+
+.note-actions button:last-child:hover {
+  background-color: #c93646;
+}
+
+@media (max-width: 600px) {
+  .app {
+    padding: 25px 16px;
+  }
+
+  header h1 {
+    font-size: 29px;
+  }
+
+  .note-form {
+    padding: 20px;
+  }
+}
