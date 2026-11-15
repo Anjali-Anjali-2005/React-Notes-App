@@ -8,7 +8,13 @@ Try the application here:
 
 **[React Notes App – Live Website](https://react-notes-app-nu-liart.vercel.app/)**
 
+## 📸 Application Screenshots
 
+### ☀️ Light Mode
+![React Notes App - Light Mode](notes-light.png)
+
+### 🌙 Dark Mode
+![React Notes App - Dark Mode](notes-dark.png)
 
 ## Features — Phase 1
 
