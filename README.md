@@ -2,6 +2,14 @@
 
 A simple Notes Application built using React and Vite. This project is being developed as a team project to practice React fundamentals and frontend development.
 
+## 🚀 Live Demo
+
+Try the application here:
+
+**[React Notes App – Live Website](https://react-notes-app-nu-liart.vercel.app/)**
+
+
+
 ## Features — Phase 1
 
 - Create new notes with a title and description.
